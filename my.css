@@ -1,0 +1,132 @@
+/* Base styles */
+body {
+    background-color: #fbfbfb;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000000;
+    font: 1.2rem "Fira Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+h1, h2 {
+    margin: 40px 0; /* Increased margin */
+    font-weight: bold;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 75px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+nav input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 250px;
+    color: #333;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+nav input[type="text"]::placeholder {
+    color: #ccc;
+}
+
+nav input[type="text"]:focus {
+    outline: none;
+    border-color: #ffc107; /* Yellow border color on focus */
+    box-shadow: 0 0 5px rgba(255, 193, 7, 0.5); /* Yellow box shadow on focus */
+}
+
+nav button {
+    background-color: #ffc107; /* Yellow button color */
+    color: #333;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #ffcd38; /* Darker yellow color on hover */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+/* Main styles */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+}
