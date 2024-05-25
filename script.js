@@ -3,19 +3,19 @@
 const blogPosts = [
     { title: "First Blog Post", content: "chitra, jcnj nnjf ifnr rif r ", image: "path_to_image/image2.jpg" },
     { title: "Second Blog Post", content: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", image: "path_to_image/image2.jpg" },
-    { title: "Third Blog Post", content: "Ut enim chahak adwani minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "fourth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "fifth Blog Post", content: "Ut enim ad cheeku veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "sixth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "seventh Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "Eighth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "Ninth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "Tenth Blog Post", content: "Ut enim ad minim maharani, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "Twelfth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "Thirteenth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation churail laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "fourteenth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "fifteenth Blog Post", content: "Ut enim ad minim betu, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-    { title: "sixteenth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
+    { title: "Third Blog Post", content: "Ut enim chahak adwani minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "fourth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "fifth Blog Post", content: "Ut enim ad cheeku veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "sixth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "seventh Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "Eighth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "Ninth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "Tenth Blog Post", content: "Ut enim ad minim maharani, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "Twelfth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "Thirteenth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation churail laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "fourteenth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "fifteenth Blog Post", content: "Ut enim ad minim betu, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
+    { title: "sixteenth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" },
     ];
 
 // Function to display all blog posts
