@@ -103,6 +103,8 @@ h2 {
 }
 
 /* Navigation bar styles */
+/* General styles */
+
 header {
     background-color: #333;
     color: #fff;
@@ -111,6 +113,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    height: 100px;
 }
 
 nav {
@@ -141,12 +144,12 @@ nav input[type="text"]::placeholder {
 
 nav input[type="text"]:focus {
     outline: none;
-    border-color: #ffc107; /* Yellow border color on focus */
-    box-shadow: 0 0 5px rgba(255, 193, 7, 0.5); /* Yellow box shadow on focus */
+    border-color: #ffc107;
+    box-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
 }
 
 nav button {
-    background-color: #ffc107; /* Yellow button color */
+    background-color: #ffc107;
     color: #333;
     padding: 8px 16px;
     border: none;
@@ -157,7 +160,7 @@ nav button {
 }
 
 nav button:hover {
-    background-color: #ffcd38; /* Darker yellow color on hover */
+    background-color: #ffcd38;
 }
 
 nav ul {
@@ -183,8 +186,27 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffc107; /* Yellow color on hover */
+    color: #ffc107;
 }
+
+/* Mobile styles */
+
+@media (max-width: 768px) {
+    .search-container {
+        width: 100%;
+        justify-content: flex-end;
+    }
+    
+    nav input[type="text"] {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+}
+
 
 /* Main styles */
 main {
