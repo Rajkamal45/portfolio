@@ -102,13 +102,62 @@ h2 {
     100% { transform: scale(1.1); }
 }
 
-/* Default styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 100px;
+}
+
 nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+nav input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 250px;
+    color: #333;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+nav input[type="text"]::placeholder {
+    color: #ccc;
+}
+
+nav input[type="text"]:focus {
+    outline: none;
+    border-color: #ffc107; /* Yellow border color on focus */
+    box-shadow: 0 0 5px rgba(255, 193, 7, 0.5); /* Yellow box shadow on focus */
+}
+
+nav button {
+    background-color: #ffc107; /* Yellow button color */
+    color: #333;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #ffcd38; /* Darker yellow color on hover */
 }
 
 nav ul {
@@ -118,80 +167,24 @@ nav ul {
     display: flex;
 }
 
-nav li {
+nav ul li {
     margin-right: 20px;
 }
 
-nav a {
-    text-decoration: none;
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
     color: #fff;
-    font-size: 16px;
-    transition: color 0.3s ease;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
 }
 
-nav a:hover {
-    color: #ff6600;
+nav ul li a:hover {
+    color: #ffc107; /* Yellow color on hover */
 }
-
-/* Toggle button for mobile */
-.toggle-btn {
-    display: none;
-}
-
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav li {
-        margin: 10px 0;
-    }
-
-    /* Show toggle button */
-    .toggle-btn {
-        display: block;
-        cursor: pointer;
-        color: #fff;
-        font-size: 20px;
-    }
-
-    .toggle-btn:hover {
-        color: #ff6600;
-    }
-
-    /* Hide navigation items by default */
-    nav ul {
-        display: none;
-        position: absolute;
-        background-color: #333;
-        width: 100%;
-        top: 100%; /* Position below the toggle button */
-        left: 0;
-        padding: 10px 0;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    }
-
-    /* Show navigation items when toggle button is clicked */
-    nav.open ul {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        position: static; /* Revert to default position */
-        padding: 0;
-    }
-
-    nav.open li {
-        margin: 10px 20px; /* Add margin to each list item */
-    }
-}
-
 
 
 /* Main styles */
