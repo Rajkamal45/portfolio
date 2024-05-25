@@ -16,7 +16,7 @@ const blogPosts = [
     { title: "fourteenth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
     { title: "fifteenth Blog Post", content: "Ut enim ad minim betu, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
     { title: "sixteenth Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
-];
+    ];
 
 // Function to display all blog posts
 function displayBlogPosts() {
