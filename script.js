@@ -1,7 +1,7 @@
 // Sample blog data (replace with your actual blog data)
 
 const blogPosts = [
-    { title: "First Blog Post", content: "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj", image: "path_to_image/image2.jpg" },
+    { title: "First Blog Post", content: "chitra, cheeku, maharani, churail, betu, ", image: "path_to_image/image2.jpg" },
     { title: "Second Blog Post", content: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", image: "path_to_image/image2.jpg" },
     { title: "Third Blog Post", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "path_to_image/image3.jpg" }
 ];
