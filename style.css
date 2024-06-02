@@ -61,7 +61,7 @@ h2 {
     background-image: url('WhatsApp Image 2024-06-01 at 11.32.54 AM.jpeg');
     background-size: cover;
     border-radius: 50%;
-    transform: rotate(16deg);
+    transform: rotate(20deg);
     margin: 40px auto; /* Increased margin */
     animation: pulse 2s ease-in-out infinite alternate;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add box shadow for depth */
